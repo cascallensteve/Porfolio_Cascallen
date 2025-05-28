@@ -25,8 +25,9 @@ SECRET_KEY = 'django-insecure-x+wawk9gq9jap#!c2$jb!2f%oo0^q0iip^)m4b=uc=5(($o5(9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+ALLOWED_HOSTS = ['porfolio-cascallen.onrender.com']
 
-ALLOWED_HOSTS = ['porfolio-cascallen.onrender.com', 'localhost', '127.0.0.1']
+# ALLOWED_HOSTS = ['porfolio-cascallen.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
